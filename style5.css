@@ -18,6 +18,7 @@ footer{
 }
 
 .tab {
+    color: rgb(255, 255, 255);
     overflow: hidden;
     border: 1px solid #ccc;
     /* background-color: #f1f1f1; */
@@ -56,7 +57,7 @@ h2{
 }
 .tabcontent img{
     float: left;
-    width: 15px;
-    height: 15px; 
+    width: 150px;
+    height: 150px; 
     border: 10px;
 }
