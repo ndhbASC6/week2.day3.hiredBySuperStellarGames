@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style5.css" type="text/css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet"> -->
+    <link href ="https://www.nlpca.co.uk/blog/wp-content/uploads/2016/02/Linked-in-pic-2.png">
+    <title>SuperStellarGamesInc.</title>
+    
+</head>
+<body>
+    <style>
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+            background-image: url(https://www.nlpca.co.uk/blog/wp-content/uploads/2016/02/Linked-in-pic-2.png);
+            font-family: 'Fjalla One', sans-serif;
+    
+        }
+        footer{
+            margin-top: 100%;
+            background-color: rgb(232, 231, 250);
+            color: #2D3142;
+            width: 100%;
+            flex: 1;
+            display:flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+    </style>
+  <h2>Super Stellar Games Inc.</h2>
+    <script>
+        function Tabs(evt, Name) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(Name).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <div class="tab">
+        <button class="tablinks" onclick="Tabs(event, 'About')">About</button>
+        <button class="tablinks" onclick="Tabs(event, 'Games')">Games</button>
+        <button class="tablinks" onclick="Tabs(event, 'Content')">Content</button>
+        <input type="text" placeholder="Search...">
+        <!-- <button type="button" onclick="alert('This is not an actual website.')">Go</button> -->
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+        <a href= "https://www.linkedin.com/">Linkedin</a>
+        <a href= "https://www.instagram.com/?hl=en">Instagram</a>
+    </div>
+
+    <div id="Games" class="tabcontent">
+        <h3>Paris</h3>
+        <p>Paris is the capital of France.</p> 
+    </div>
+
+    <div id="Content" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
+    <footer>
+        <p>Copyright © 2019 The Bois | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
+
+<!-- https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bb789617-5f9c-4625-a5f5-6de63a6860d6/dcj42lu-58cbb6ed-2617-4c37-9180-4f18c25fc242.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JiNzg5NjE3LTVmOWMtNDYyNS1hNWY1LTZkZTYzYTY4NjBkNlwvZGNqNDJsdS01OGNiYjZlZC0yNjE3LTRjMzctOTE4MC00ZjE4YzI1ZmMyNDIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mOJ09SA7V7s9OPWBz0aNTha95iDJe3M0d-x_tegom-U -->
+<!-- https://www.nlpca.co.uk/blog/wp-content/uploads/2016/02/Linked-in-pic-2.png
+http://getwallpapers.com/wallpaper/full/d/e/5/295415.jpg -->
+<!-- <style>
+    @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+    </style> -->
+    
+

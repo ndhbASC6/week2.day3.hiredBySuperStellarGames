@@ -1,0 +1,17 @@
+/* url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap'); */
+body{
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(https://www.nlpca.co.uk/blog/wp-content/uploads/2016/02/Linked-in-pic-2.png);
+    /* font-family: 'Fjalla One', sans-serif; */
+    
+}
+footer{
+    margin-top: 50px;
+    background-color: rgb(232, 231, 250);
+    color: #2D3142;
+    width: 100%;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
